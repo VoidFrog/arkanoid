@@ -5,23 +5,29 @@
 
 html, body {
     position: absolute;
+    
     width: 100%;
     height: 100%;
     background-color: rgb(26, 21, 46);
 }
 
-canvas {
+#canvas {
     position: absolute;
-    right: 250px;
-    top: 100px;
+    left: 700px;
+    top: 40px;
 }
 
-#block-types{
+#block-types {
+    position: absolute;
+    overflow: hidden;
     width: 500px;
-    height: 100%;
+    height: 100vh;
     background-color: rgb(22, 18, 34);
     box-sizing: border-box;
     border: 2px solid white;
+}
 
+#block_display {
+    position: absolute;
 }
 
